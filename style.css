@@ -1,0 +1,133 @@
+.dflex{
+    display: flex;
+  }
+  body{
+    background-color: #84a59d; 
+    font-family: 'Poppins', sans-series;
+  }
+  img{ 
+   width: 60%;
+   height: 80%; 
+   border-radius: 5%;
+   margin: 5px; 
+   box-shadow: 0 5px 10px 0 #bc4749;
+  }
+  a{
+   text-decoration: none;
+   background-color: #f5efc1; 
+   font-size: 30px;
+   padding: 7px 14px; 
+   border-radius: 10px;
+   box-shadow: 5px 5px 9px 0px #9e2a2b;
+  }
+  a:hover{
+   background-color: #e9c46a;
+    transition: 0.2s;
+  }
+  .harry:hover{ 
+    animation: mymove 4s infinite linear;
+  }
+  @keyframes mymove{
+   0% {
+    transform: rotate(0deg);
+     }
+   100%{ 
+    transform: rotate(360deg);
+   }
+  }
+  
+  .row{   
+   display: flex;
+  }  
+   .bulb{
+  flex-direction: column;   
+   top: 1900px;
+   height: 80px;
+   width: 80px;   
+   border-radius: 50%;
+   box-shadow: 0 0 40px 10px #d62828;  
+   margin-right: 50%;
+  transform: translateX(-50%);  
+   }
+  .bulb1{  
+    background-color: #ff9e00;
+    margin-top: 300px;
+    margin-bottom: 1100px; 
+  }
+  .bulb2{  
+    background-color: #ff9e00;
+    margin-bottom: 1000px;
+  } 
+  .bulb3{
+   background-color: #ff9e00;
+   margin-bottom: 1100px;
+  }
+  .bulb4{  
+    background-color: #ff9e00;
+  }
+   .vertical-line{
+    border-left: 6px solid green;   
+    height: 4700px;
+    width: 2000px;  
+    position: absolute;
+    left: 50%; 
+    top: 2250px;
+  } 
+  ::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #f4e285; 
+    border-radius: 5px;
+  }
+  .w50{
+    width: 50%;
+    display: block;
+  }
+  .salasar{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .godrik{
+    position: relative;
+    right: -55%;
+    justify-content: center;
+    margin: 30px;
+    top: 40px;
+  }
+  .rowena{
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 50px;
+  
+  }
+  .helga{
+    position: relative;
+    right: -55%;
+    justify-content: center;
+    top: 30px;
+    margin: 30px;
+  }
+  footer{
+    margin-top: 200px;
+  }
+  .line{
+    border-bottom: 1px solid green;
+    margin-top: 88px;
+  }
+  .text1{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text2{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
